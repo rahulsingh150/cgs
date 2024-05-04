@@ -26,7 +26,7 @@
           >
         </div>
         <div class="admin">
-          <a href="/http://cgspatna.ac.in/administration/">ADMIN</a>
+          <a href="http://cgspatna.ac.in/administration/">ADMIN</a>
         </div>
         <!-- <div class="logo">
           <a href="/" class="flex alignCenter justifyCenter gap1">
@@ -116,11 +116,57 @@
     </section>
     <section class="changingTabs flex alignCenter justifyCenter width100">
       <div class="tabsBar flex alignCenter spaceBtw width95 maxWidth">
-        <div class="tab">About Department</div>
+        <div class="dropdown tab">
+          <button
+            class="dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            The Institute
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/about.html">About Us</a></li>
+            <li>
+              <a class="dropdown-item" href="founder.html">Founder Director</a>
+            </li>
+          </ul>
+        </div>
         <div class="tab">Vision and Mission</div>
-        <div class="tab">Academic Program</div>
+        <div class="dropdown tab">
+          <button
+            class="dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Academic Program
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Ph.D. in Geography</a></li>
+            <li>
+              <a class="dropdown-item" href="#"
+                >Post Graduate Diploma Programme (PGDP) in GIS & Remote
+                Sensing</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"
+                >M.Sc. Programme in GIS remote Sensing</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">M.A./M.Sc. in Geography</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"
+                >Certificate Programme in GIS & Remote Sensing</a
+              >
+            </li>
+          </ul>
+        </div>
         <div class="tab">Faculty</div>
-        <div class="tab">Facilities</div>
+        <div class="tab">eResource</div>
         <div class="tab">Achievements</div>
         <div class="tab borderRightNone">Contact</div>
       </div>
@@ -132,6 +178,69 @@
         class="aboutDTabContainer flex alignStart justifyCenter gap1 width95 maxWidth marginBottom1"
       >
         <div class="aboutDTabContainerLeft width65">
+          <div
+            id="carouselExampleInterval"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div
+                class="carousel-item active sliderImage"
+                data-bs-interval="300"
+              >
+                <img
+                  src="./images/AAC Member.jpeg.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item sliderImage" data-bs-interval="2000">
+                <img
+                  src="./images/AAC Meeting.jpeg.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item sliderImage">
+                <img
+                  src="./images/IMG_9669.JPG"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item sliderImage">
+                <img
+                  src="./images/IMG-20171006-WA0012 (1).jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="">Next</span>
+            </button>
+          </div>
           <p>
             The Centre For Geographical Studies (CGS) came in to existence vide
             Bihar Government notification- 15/P 5-09/2016 va'k -193, Date-
@@ -614,7 +723,7 @@
         <h2>Staff</h2>
         <div class="facultyTabs flex gap2 marginBottom2">
           <div class="facLeft">
-            <img src="./images/staff.jpg" />
+            <img src="./images/staff.webp" />
           </div>
           <div class="facRight">
             <p><span>Name: </span>Pawan Kumar</p>
@@ -1016,14 +1125,12 @@
     >
       <div class="achievementTabContainer maxWidth width95">
         <h2>Achievements</h2>
-        <div class="achievementContent">
-          <div
-            class="achCTabs flex width50 gap2 alignStart justifyCenter marginBottom2"
-          >
-            <div class="achTabLeft width30">
+        <div class="achievementContent flex alignCenter justifyCenter gap1">
+          <div class="achCTabs">
+            <div class="achTabLeft">
               <img src="./images/XVI_DGSI_International_Geography_Online.png" />
             </div>
-            <div class="achTabRight width70">
+            <div class="achTabRight">
               <p>
                 XVI DGSI International Geography Online Conference (The Deccan
                 Geographical Society, India) organized by Centre for
@@ -1036,10 +1143,8 @@
               <a href="#">View More</a>
             </div>
           </div>
-          <div
-            class="achCTabs flex width50 gap2 alignStart justifyCenter marginBottom2"
-          >
-            <div class="achTabLeft width30">
+          <div class="achCTabs">
+            <div class="achTabLeft">
               <img src="./images/20210308_145734.jpg" />
             </div>
             <div class="achTabRight width70">
@@ -1050,16 +1155,57 @@
               <a href="#">View More</a>
             </div>
           </div>
-          <div
-            class="achCTabs flex width50 gap2 alignStart justifyCenter marginBottom2"
-          >
-            <div class="achTabLeft width30">
+          <div class="achCTabs">
+            <div class="achTabLeft">
               <img src="./images/WOLVERHAMPTON.jpg" />
             </div>
-            <div class="achTabRight width70">
+            <div class="achTabRight">
               <p>
                 Collaboration with university of WOLVERHAMPTON as a project
                 partner.
+              </p>
+
+              <a href="#">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="achievementContent flex alignCenter justifyCenter gap1">
+          <div class="achCTabs">
+            <div class="achTabLeft">
+              <img src="./images/achievements3.png" />
+            </div>
+            <div class="achTabRight">
+              <p>
+                Research Project on the topic "Neighbourhood Environment
+                Improvement Plan" has been started in CGS.
+              </p>
+              <span
+                >Research Project on the topic “Neighbourhood Environment
+                Improvement Plan” has been started in CGS.</span
+              ><br />
+              <a href="#">View More</a>
+            </div>
+          </div>
+          <div class="achCTabs">
+            <div class="achTabLeft">
+              <img src="./images/20210308_145608.jpg" />
+            </div>
+            <div class="achTabRight">
+              <p>16 Webinar Series has been successfully conducted by CGS.</p>
+              <span
+                >16 Webinar Series has been successfully conducted by CGS.</span
+              ><br />
+              <a href="#">View More</a>
+            </div>
+          </div>
+          <div class="achCTabs">
+            <div class="achTabLeft">
+              <img src="./images/achievements.jpeg" />
+            </div>
+            <div class="achTabRight">
+              <p>
+                Celebrating Bihar Diwas 2021 in the Centre for Geographical
+                Studies, AKU Campus, Patna by planting 11 Neem Trees.
               </p>
 
               <a href="#">View More</a>
