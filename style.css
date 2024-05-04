@@ -895,6 +895,11 @@ textarea {
   border-radius: 50%;
 }
 
+.importantLinks p a {
+  font-weight: 600;
+  color: black;
+}
+
 .sAchieveh2 {
   margin: 0 0 0.5rem 0 !important;
 }
