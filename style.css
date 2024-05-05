@@ -788,7 +788,6 @@ textarea {
 /* changing tabs */
 .changingTabs {
   background-color: #800000;
-  margin: 0 0 1rem 0;
 }
 .changingTabs .tabsBar {
   padding: 1rem;
@@ -802,6 +801,11 @@ textarea {
 .changingTabs .tabsBar .tab {
   border-right: 1px solid white;
   padding: 0 1rem;
+}
+
+.aboutDTabContainer {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem;
 }
 
 .aboutDTabContainerLeft p {
@@ -1053,10 +1057,18 @@ footer .footerContainer .footerTab ul li a {
   margin: 2rem 0;
 }
 
-.directorImage {
-  border-bottom: 1px solid black;
+.dImageInfoTab h4 {
+  font-size: 1.1rem;
+}
+
+.directorImageC {
   margin: 0 0 1rem 0;
   padding: 0 0 1rem 0;
+  border-bottom: 1px solid black;
+}
+
+.directorImage img {
+  border-radius: 50%;
 }
 
 /* responsive */
