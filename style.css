@@ -1160,6 +1160,26 @@ footer .footerContainer .footerTab ul li a {
   .contactRight {
     width: 100%;
   }
+  .directorContainer {
+    flex-direction: column;
+  }
+  .directorImage {
+    width: 100%;
+  }
+  .directorMessage {
+    width: 100%;
+  }
+  .achievementTabContainer h2 {
+    margin: 1rem 0;
+  }
+
+  .achievementContent {
+    flex-direction: column;
+  }
+
+  .achCTabs {
+    width: 100% !important;
+  }
 
   .mobilePadding1 {
     padding: 1rem;
