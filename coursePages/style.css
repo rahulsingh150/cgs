@@ -12,9 +12,30 @@ main {
 }
 
 main a {
-  background-color: black;
+  background-color: green;
   padding: 1rem;
   color: white;
   border-radius: 0.2rem;
   cursor: pointer;
+}
+
+main h2 {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+main p {
+  margin: 0 0 1rem 0;
+}
+
+main h3 {
+  margin: 0 0 1rem 0;
+}
+
+main ol li {
+  margin: 0 0 1rem 0;
+}
+
+main ul li {
+  margin: 0 0 1rem 0;
 }
