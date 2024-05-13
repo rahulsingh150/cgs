@@ -1070,6 +1070,12 @@ footer .footerContainer .footerTab ul li a {
   border-radius: 50%;
 }
 
+.toggleBtn button {
+  background-color: transparent !important;
+  border: none;
+  color: white;
+}
+
 /* responsive */
 @media screen and (max-width: 600px) {
   .nav {
